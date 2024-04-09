@@ -5,6 +5,8 @@ import { ThemeProvider } from "styled-components";
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Skills from './components/Skills'
+import Education from './components/Education';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const Body = styled.div`
 background-color: ${({theme}) => theme.bg};
@@ -27,15 +29,21 @@ linear-gradient(141.27deg,
 function App() {
   return (
     <ThemeProvider theme = {darkTheme}>
+      <Router>
       <Navbar/>
       <Body>
      <HeroSection/>
      <Wrapper>
      <Skills/>
+     <Education/>
      </Wrapper>
       </Body>
+      </Router>
+    
     </ThemeProvider>
   );
 }
 
 export default App;
+
+//time 24:15
