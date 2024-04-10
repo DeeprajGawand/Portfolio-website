@@ -1,8 +1,17 @@
 import React from 'react'
+import styled from 'styled-components'
+const Wrapper = styled.div`
+color : white
+`
 
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
+
+    <Wrapper>
+      {/* <div>HeroSection</div> */}
+      HeroSection
+    </Wrapper>
+    
   )
 }
 

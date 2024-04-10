@@ -1,8 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
 
+const Styled = styled.div`
+color :white;
+`
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <Styled>
+      <div>Skills</div>
+    </Styled>
+    
   )
 }
 

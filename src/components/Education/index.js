@@ -1,8 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Color = styled.div`
+color : white`
 
 const Education = () => {
   return (
-    <div>Education</div>
+<Color>
+Education
+</Color>
+    
   )
 }
 
