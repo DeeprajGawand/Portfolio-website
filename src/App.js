@@ -46,4 +46,4 @@ function App() {
 
 export default App;
 
-//time 26:42
+//time 41:49
