@@ -1,11 +1,11 @@
 export const Bio = {
     name: "Deepraj Gawand",
     roles: [
-      "Full Stack Developer",
-      "Java Developer",
-      "React.js Developer",
-      "Software Development Engineer",
-      "Programmer",
+      "Full Stack Developer.",
+      "Java Developer.",
+      "React.js Developer.",
+      "Software Development Engineer.",
+      "Programmer.",
     ],
     description:
     "I am a highly motivated and adaptable individual, consistently seeking out new challenges to conquer. Driven by a profound passion for learning, I am committed to producing outcomes of the utmost quality. My approach is characterized by a positive attitude and an unwavering growth mindset, primed to deliver meaningful contributions and attain remarkable accomplishments.",
