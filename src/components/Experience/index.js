@@ -8,6 +8,8 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 // import ExperienceCard from '../Cards/ExperienceCard';
 import { experiences } from '../../data/constants';
+import ExperienceCard from '../Cards/ExperienceCard';
+
 
 
 const Container = styled.div`
@@ -63,10 +65,6 @@ align-items: center;
 justify-content: center;
 gap: 12px;`;
 
-const TimeLine = styled.div``;
-const TimeLineItem = styled.div``;
-
-
 
 const Experience = () => {
   return (
@@ -86,7 +84,7 @@ const Experience = () => {
                            
                         </TimelineSeparator>
                         <TimelineContent  sx={{ py: '12px', px: 2 }}>
-                            Hello 
+                            <ExperienceCard  experience={experience}/>
                         </TimelineContent>
                     </TimelineItem>
                     ))}
