@@ -11,6 +11,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import { useState, useEffect } from "react";
 import Contact from "./components/Contact"; 
+import Footer from './components/Footer';
 
 const Body = styled.div`
 background-color: ${({theme}) => theme.bg};
@@ -47,8 +48,8 @@ function App() {
      <Wrapper>
      <Education/>
      <Contact />
-
      </Wrapper>
+     <Footer/>
      
      
      

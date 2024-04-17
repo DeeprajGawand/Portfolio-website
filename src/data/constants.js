@@ -14,6 +14,7 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/deeprajgawand/",
   twitter: "https://twitter.com/DeeprajGawand",
   insta: "https://www.instagram.com/deepraj_gawand/",
+  gmail:"deeprajgawand@gmail.com",
   facebook: "",
 };
 export const skills = [
