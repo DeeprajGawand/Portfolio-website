@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 const Container = styled.div`
@@ -146,7 +147,10 @@ const Contact = () => {
           <Title>Contact</Title>
           <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
           <ContactForm ref={form} onSubmit={handleSubmit}>
-            <ContactTitle>Email Me 🚀</ContactTitle>
+            <Link to="mailto:deeprajgawand@gmail.com">
+            <ContactTitle >Email Me 🚀</ContactTitle>
+            </Link>
+           
             <ContactInput placeholder="Your Email" name="from_email" />
             <ContactInput placeholder="Your Name" name="from_name" />
             <ContactInput placeholder="Subject" name="subject" />
